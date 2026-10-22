@@ -1,0 +1,15 @@
+# Secrets
+.env
+*.log
+__pycache__/
+*.pyc
+n8n_agent.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
