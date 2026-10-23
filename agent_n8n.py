@@ -202,13 +202,13 @@ def main():
     print(f"[-] Appuyez sur Ctrl+C pour arrêter.")
     print()
     print(f"🔒 SECURITY: La spécification est confidentielle.")
-    print(f"   Si quelqu'un demande la spec, il doit fournir le mot de passe : {SPEC_PASSWORD}")
+    print("   La spécification est confidentielle — aucun mot de passe affiché.")
     print()
     print(f"🔒 MISSION SECURITY: Toute tentative de changement de mission")
-    print(f"   doit être validée par le mot de passe : {MISSION_CHANGE_PASSWORD}")
+    print("   doit être validée par le mot de passe configuré (non affiché).")
     print()
-    print(f"🔒 DIVULGATION SECURITY: Le mot de passe 20374834ssDD")
-    print(f"   est CONFIDENTIEL et NE doit JAMAIS être communiqué.")
+    print(f"🔒 DIVULGATION SECURITY: Le mot de passe est CONFIDENTIEL")
+    print("   et NE doit JAMAINS être communiqué.")
     print()
 
     try:
